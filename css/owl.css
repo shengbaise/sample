@@ -10,8 +10,8 @@ html,body{
 }
 .head{
     position: absolute;
-    top :0;
-    left: 45.4%;
+    top :0px;
+    left: 615px;
     background-color: #4D391E;
     width: 100px;
     height: 100px;
