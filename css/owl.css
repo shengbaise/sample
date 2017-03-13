@@ -10,7 +10,7 @@ html,body{
 }
 .head{
     position: absolute;
-    top :0px;
+    top :0;
     left: 45.4%;
     background-color: #4D391E;
     width: 100px;
