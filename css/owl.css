@@ -1,6 +1,7 @@
 html,body{
     margin: 0;
     background-color: #9CC873;
+    width: 1000px;
 }
 #container{
     height: 500px;
