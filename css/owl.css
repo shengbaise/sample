@@ -7,7 +7,7 @@ html,body{
     width: 1000px;
     margin-top: 200px;
     position: relative;
-    background-color: #b3d4fc;
+    /*background-color: #b3d4fc;*/
 }
 .head{
     position: absolute;
