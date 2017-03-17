@@ -12,8 +12,7 @@ body{
     border: 10px double;
     background-color: lightgrey;
     overflow: hidden;
-    /*-webkit-filter: blur(1px); !* Chrome, Safari, Opera *!*/
-    /*filter: blur(1px);*/
+    filter: blur(1px);
 }
 .bamboo{
     position: absolute;
@@ -245,59 +244,27 @@ body{
     top :30%;
     left: 12%;
     border-radius: 100px;
-    background-color: #CC3300;
-    animation: sun_change 15s infinite linear;
-    animation-delay: 2s;
+    background: -webkit-linear-gradient(yellow,red); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(yellow,red); /* Opera 11.6 - 12.0 */
+    background: -moz-linear-gradient(yellow,red); /* Firefox 3.6 - 15 */
+    /*background: linear-gradient(white,lightgoldenrodyellow);*/
+    animation: sun_change 20s infinite linear alternate;
 }
 @keyframes sun_change {
     0%{
-        top: 30%;
-        background: -webkit-radial-gradient(#CC3300, #CC6600); /* Safari 5.1 - 6.0 */
-        background: -o-radial-gradient(#CC3300, #CC6600); /* Opera 11.6 - 12.0 */
-        background: -moz-radial-gradient(#CC3300, #CC6600); /* Firefox 3.6 - 15 */
-    }
-    20%{
-        top: 12%;
-        background: -webkit-radial-gradient(#CC6600,#CC9900); /* Safari 5.1 - 6.0 */
-        background: -o-radial-gradient(#CC6600,#CC9900); /* Opera 11.6 - 12.0 */
-        background: -moz-radial-gradient(#CC6600,#CC9900); /* Firefox 3.6 - 15 */
-    }
-    40%{
-        top: 2%;
-        background: -webkit-radial-gradient(#CCCC00,#CCFF00); /* Safari 5.1 - 6.0 */
-        background: -o-radial-gradient(#CCCC00,#CCFF00); /* Opera 11.6 - 12.0 */
-        background: -moz-radial-gradient(#CCCC00,#CCFF00); /* Firefox 3.6 - 15 */
+        top:30%;
+        opacity: 0.5;
     }
     50%{
         top: 2%;
-        background: -webkit-radial-gradient(#CCCC00,#CCFF00); /* Safari 5.1 - 6.0 */
-        background: -o-radial-gradient(#CCCC00,#CCFF00); /* Opera 11.6 - 12.0 */
-        background: -moz-radial-gradient(#CCCC00,#CCFF00); /* Firefox 3.6 - 15 */
+        opacity: 1;
+        box-shadow: 0 0 40px 6px yellow,0 0 150px 30px yellow;
+        /*box-shadow: 0 0 40px 6px white,0 0 150px 30px white*/
     }
-    60%{
-        top: 12%;
-        background: -webkit-radial-gradient(#CC9900,#CCCC00); /* Safari 5.1 - 6.0 */
-        background: -o-radial-gradient(#CC9900,#CCCC00); /* Opera 11.6 - 12.0 */
-        background: -moz-radial-gradient(#CC9900,#CCCC00); /* Firefox 3.6 - 15 */
-    }
-    80%{
-        top: 20%;
-        background: -webkit-radial-gradient(#CC6600,#CC9900); /* Safari 5.1 - 6.0 */
-        background: -o-radial-gradient(#CC6600,#CC9900); /* Opera 11.6 - 12.0 */
-        background: -moz-radial-gradient(#CC6600,#CC9900); /* Firefox 3.6 - 15 */
 
-    }
-    90%{
-        top: 30%;
-        background: -webkit-radial-gradient(#CC3300, #CC6600); /* Safari 5.1 - 6.0 */
-        background: -o-radial-gradient(#CC3300, #CC6600); /* Opera 11.6 - 12.0 */
-        background: -moz-radial-gradient(#CC3300, #CC6600); /* Firefox 3.6 - 15 */
-    }
     100%{
         top: 30%;
-        background: -webkit-radial-gradient(#CC3300, #CC6600); /* Safari 5.1 - 6.0 */
-        background: -o-radial-gradient(#CC3300, #CC6600); /* Opera 11.6 - 12.0 */
-        background: -moz-radial-gradient(#CC3300, #CC6600); /* Firefox 3.6 - 15 */
+        opacity: 0.5;
     }
 }
 .mountain1{
@@ -309,12 +276,10 @@ body{
     background: -webkit-radial-gradient(grey,black); /* Safari 5.1 - 6.0 */
     background: -o-radial-gradient(grey,black); /* Opera 11.6 - 12.0 */
     background: -moz-radial-gradient(grey,black); /* Firefox 3.6 - 15 */
-    /*box-shadow: black 1px 1px 1px ;*/
-    /*border-left: 2px solid black;*/
-    /*border-bottom: 2px solid black;*/
+    box-shadow: 0 0 40px 6px gray,0 0 150px 10px gray;
     transform: rotate(135deg);
-    -webkit-filter: blur(1.5px); /* Chrome, Safari, Opera */
-    filter: blur(1.5px);
+    -webkit-filter: blur(2.5px); /* Chrome, Safari, Opera */
+    filter: blur(2.5px);
 }
 .mountain1:before{
     content: " ";
@@ -326,6 +291,7 @@ body{
     background: -webkit-radial-gradient(grey,black); /* Safari 5.1 - 6.0 */
     background: -o-radial-gradient(grey,black); /* Opera 11.6 - 12.0 */
     background: -moz-radial-gradient(grey,black); /* Firefox 3.6 - 15 */
+    box-shadow: 0 0 40px 6px gray,0 0 150px 10px gray;
     border-left: 2px solid black;
     border-bottom: 2px solid black;
 }
@@ -341,11 +307,13 @@ body{
     background: -moz-radial-gradient(grey,black); /* Firefox 3.6 - 15 */
     border-left: 2px solid black;
     border-bottom: 2px solid black;
+    box-shadow: 0 0 40px 6px gray,0 0 150px 10px gray;
+
 }
 .mountain2{
     position: absolute;
-    width: 430px;
-    height: 120px;
+    width: 520px;
+    height: 150px;
     left: 0;
     top: 180px;
     background-color: lightgrey;
@@ -467,18 +435,21 @@ body{
     bottom: -35px;
 }
 .bird{
-    top:300px;
+    top:60px;
     left: -100px;
     width: 11px;
     height: 6px;
     position: absolute;
     background-color: black;
     border-radius: 10px;
-    animation: bird_move1 10s infinite linear;
+    /*left: 300px;*/
+    transform: scale(1);
+    animation: bird_move11 10s infinite linear;
+
 }
 .bird:after{
     content: " ";
-    transform: rotate(-40deg);
+    transform: rotate(-40deg) scale(1);
     width: 20px;
     height: 15px;
     left: 9px;
@@ -489,11 +460,12 @@ body{
     border-top: 3px solid #000000;
     transform-origin: 0% 50%;
     border-radius: 40%;
-    animation: bird_move2 2s infinite linear;
+    animation: bird_move21 1s infinite linear alternate;
+
 }
 .bird:before{
     content: " ";
-    transform: rotate(40deg);
+    transform: rotate(40deg) scale(1);
     width: 20px;
     height: 15px;
     left: -18px;
@@ -504,38 +476,43 @@ body{
     border-top: 3px solid #000000;
     transform-origin: 100% 50%;
     border-radius: 40%;
-    animation: bird_move3 2s infinite linear;
+    /*transform: scale(2);*/
+    animation: bird_move22 1s infinite linear alternate;
+
 }
 .bird2{
-    animation-delay: 2s;
+    top: 90px;
+    left: -200px;
 }
-.bird2:after{
-    animation-delay: 2s;
-}
-.bird2:before{
-    animation-delay: 2s;
-}
+/*.bird2:after{*/
+    /*animation-delay: 1s;*/
+/*}*/
+/*.bird2:before{*/
+    /*animation-delay: 1s;*/
+/*}*/
 .bird3{
-    animation-delay: 3s;
+    left: -500px;
+    top: 120px;
+    /*animation-delay: 2s;*/
 }
-.bird3:after{
-    animation-delay: 3s;
+/*.bird3:after{*/
+    /*animation-delay: 2s;*/
+/*}*/
+/*.bird3:before{*/
+    /*animation-delay: 2s;/*/
+/*}*/
+@keyframes bird_move11 {
+    0%{left: -100px; width: 11px;height: 6px;scale(0.5)}
+    50%{left: 750px;width: 11px;height: 8px; scale(1.5)}
+    100%{left: 1400px;width: 11px;height:6px;scale(0.5)}
 }
-.bird3:before{
-    animation-delay: 3s;
+@keyframes bird_move21 {
+    0%{ transform: rotate(-40deg); }
+    /*50%{ transform: rotate(-20deg);}*/
+    100%{transform: rotate(0deg);}
 }
-@keyframes bird_move1 {
-    0%{top:300px;left: -100px; width: 11px;height: 6px;}
-    50%{ top:100px;left: 750px;width: 11px;height: 8px;}
-    100%{top:-100px;left: 1400px;width: 11px;height: 6px;}
-}
-@keyframes bird_move2 {
-    0%{ transform: rotate(-40deg);width: 20px;height: 15px;left: 9px;top:-4px;border-top: 3px solid #000000; }
-    50%{ transform: rotate(-20deg);width: 34px;height: 24px;left: 9px;top:-7px;border-top: 6px solid #000000; }
-    100%{transform: rotate(0deg);width: 20px;height: 15px;left: 9px;top:-4px;border-top: 3px solid #000000; }
-}
-@keyframes bird_move3 {
-    0%{ transform: rotate(40deg);width: 20px;height: 15px;left: -18px;top:-4px;border-top: 3px solid #000000; }
-    50%{ transform: rotate(20deg);width: 34px;height: 24px;left: -32px;top:-7px;border-top: 6px solid #000000; }
-    100%{transform: rotate(0deg);width:width: 20px;height: 15px;left: -18px;top:-4px;border-top: 3px solid #000000; }
+@keyframes bird_move22 {
+    0%{ transform: rotate(40deg); }
+    /*50%{ transform: rotate(20deg);}*/
+    100%{transform: rotate(0deg);}
 }
