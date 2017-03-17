@@ -261,7 +261,12 @@ body{
         box-shadow: 0 0 40px 6px yellow,0 0 150px 30px yellow;
         /*box-shadow: 0 0 40px 6px white,0 0 150px 30px white*/
     }
-
+    65%{
+        top: 2%;
+        opacity: 1;
+        box-shadow: 0 0 40px 6px yellow,0 0 150px 30px yellow;
+        /*box-shadow: 0 0 40px 6px white,0 0 150px 30px white*/
+    }
     100%{
         top: 30%;
         opacity: 0.5;
