@@ -220,7 +220,7 @@ body{
 }
 .water{
     position: absolute;
-    width: 1500px;
+    width: 150%;
     height: 40px;
     bottom: 0;
     left: -10%;
@@ -449,7 +449,7 @@ body{
     border-radius: 10px;
     /*left: 300px;*/
     transform: scale(1);
-    animation: bird_move11 10s infinite linear;
+    animation: bird_move11 15s infinite linear;
 
 }
 .bird:after{
@@ -486,25 +486,44 @@ body{
 
 }
 .bird2{
-    top: 90px;
+    top: 0;
     left: -200px;
+    animation: bird_move12 14s linear infinite ;
 }
 .bird3{
     left: -500px;
-    top: 120px;
+    top: 0px;
+    animation: bird_move13 12s linear infinite ;
 }
 @keyframes bird_move11 {
-    0%{left: -100px; width: 11px;height: 6px;scale(0.5)}
-    50%{left: 750px;width: 11px;height: 8px; scale(1.5)}
-    100%{left: 1400px;width: 11px;height:6px;scale(0.5)}
+    0%{left: -280px; width: 11px;height: 6px;transform: scale(0.2)}
+    40%{left: 750px;top:180px;width: 11px;height: 8px;transform: scale(1.0)}
+    100%{left: 1400px;top:40px;width: 11px;height:6px;transform: scale(0.2)}
+}
+@keyframes bird_move12 {
+    0%{left: -120px; width: 11px;height: 6px;transform: scale(0.2)}
+    40%{left: 810px;top:130px;width: 11px;height: 8px;transform: scale(1.0) }
+    100%{left: 1460px;top:40px;width: 11px;height:6px;transform: scale(0.2)}
+}
+@keyframes bird_move13 {
+    0%{left: -60px;top:260px; width: 11px;height: 6px;transform: scale(0.2)}
+    40%{left: 870px;top:60px;width: 11px;height: 8px;transform: scale(1.0) }
+    100%{left: 1520px;top:180px;width: 11px;height:6px;transform: scale(0.2)}
 }
 @keyframes bird_move21 {
+    /*0%{transform: scale(0.5);}*/
     0%{ transform: rotate(-40deg); }
+    /*49%{transform: rotate(0deg);}*/
     /*50%{ transform: rotate(-20deg);}*/
+    /*50%{transform: scale(1.5);}*/
+    /*95%{transform: scale(0.5);}*/
     100%{transform: rotate(0deg);}
 }
 @keyframes bird_move22 {
     0%{ transform: rotate(40deg); }
-    /*50%{ transform: rotate(20deg);}*/
+    /*50%{ transform: rotate(-20deg);}*/
+    /*49%{transform: rotate(0deg);}*/
+    /*50%{transform: scale(1.5);}*/
+    /*95%{transform: scale(0.5);}*/
     100%{transform: rotate(0deg);}
 }
