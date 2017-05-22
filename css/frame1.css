@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#frame1{
+    width: 100%;
+    height: 1000px;
+    background-image: url("../img/frame1/bg1.jpg");
+}
+#topissue{
+    position: absolute;
+    top:100px;
+    left: 300px;
+    width: 141px;
+    height: 80px;
+    background-image: url("../img/frame1/topissue.png");
+}
+#imlzpcxe{
+    position: absolute;
+    top:100px;
+    left: 820px;
+    width: 120px;
+    height: 60px;
+    background-image: url("../img/frame1/imlzpcxe.bmp")
+}
+#kinetic{
+    position: absolute;
+    top:100px;
+    left: 400px;
+    width: 420px;
+    height: 170px;
+    background-image: url("../img/frame1/kinetic.bmp");
+
+}
+#bgheart{
+    position: absolute;
+    top:260px;
+    left: 460px;
+    width: 500px;
+    height: 350px;
+    background-image: url("../img/frame1/bgheart.png");
+    background-repeat: no-repeat;
+}
+#heart{
+    position: absolute;
+    top:260px;
+    left: 460px;
+    width: 367px;
+    height: 350px;
+    background-image: url("../img/frame1/heart.png")
+}
+#little1{
+    position: absolute;
+    width: 175px;
+    height: 108px;
+    top:260px;
+    left: 307px;
+    background-image: url("../img/frame1/little1.bmp")
+}
+#little2{
+    position: absolute;
+    width: 200px;
+    height: 128px;
+    top:410px;
+    left: 307px;
+    background-image: url("../img/frame1/little2.png")
+}
+#little3{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    top:540px;
+    left: 307px;
+    background-image: url("../img/frame1/little3.png")
+}
+#little4{
+    position: absolute;
+    width: 338px;
+    height: 137px;
+    top:210px;
+    left: 760px;
+    background-image: url("../img/frame1/little4.bmp")
+}
+#little5-1{
+    position: absolute;
+    width: 320px;
+    height: 95px;
+    top:450px;
+    left: 760px;
+    background-image: url("../img/frame1/little5.1.png")
+}
+#little5{
+
+    position: absolute;
+    width: 242px;
+    height: 67px;
+    top:350px;
+    left: 792px;
+    background-image: url("../img/frame1/little5.png")
+}
+#little6{
+    position: absolute;
+    width: 275px;
+    height: 108px;
+    top:550px;
+    left: 760px;
+    background-image: url("../img/frame1/little6.png")
+}
+#heart1{
+    position: absolute;
+    top:542px;
+    left: 370px;
+    width: 500px;
+    height: 148px;
+    background-image: url("../img/frame1/heart1.png");
+}
+#holebg{
+    position: absolute;
+    top:877px;
+    left: 488px;
+    width: 100%;
+    height: 300px;
+    background-image: url("../img/frame1/holebg.png");
+    background-repeat: no-repeat;
+}
+#hole{
+    position: absolute;
+    top:746px;
+    left: 480px;
+    width: 100%;
+    height: 0px;
+    background-image: url("../img/frame1/hole.png");
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+}
+

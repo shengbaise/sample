@@ -1,0 +1,203 @@
+#frame3{
+    position: relative;
+    width: 100%;
+    height: 1500px;
+    background-image: url("../img/frame3/bg.jpg");
+}
+#subhead{
+    position: absolute;
+    width: 306px;
+    height: 470px;
+    top: 280px;
+    left: 290px;
+    background-image: url("../img/frame3/subhead.png");
+    background-repeat: no-repeat;
+}
+#dna{
+    position: absolute;
+    width: 160px;
+    height: 280px;
+    top: 401px;
+    left: 370px;
+    background-image: url("../img/frame3/dna.gif");
+    background-repeat: no-repeat;
+}
+#hairText{
+    position: absolute;
+    width: 295px;
+    height: 30px;
+    top: 290px;
+    left: 636px;
+    background-image: url("../img/frame3/hairText.png");
+    background-repeat: no-repeat;
+}
+#header1{
+    position: absolute;
+    width: 600px;
+    height: 260px;
+    top: 40px;
+    left: 235px;
+    background-image: url("../img/frame3/header.png");
+    background-repeat: no-repeat;
+    background-position: 0px -780px;
+}
+#language{
+    position: absolute;
+    width: 270px;
+    height: 50px;
+    top: 290px;
+    left: 300px;
+    background-image: url("../img/frame3/language.png");
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+#tadpoleMiddle{
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    top: 173px;
+    left: 830px;
+    background-image: url("../img/frame3/tadpoleMiddle.bmp");
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+#hairA{
+    position: absolute;
+    width: 150px;
+    height: 90px;
+    top: 345px;
+    left: 620px;
+    background-image: url("../img/frame3/hairA.png");
+    background-repeat: no-repeat;
+    /*background-position: 0px 0px;*/
+}
+#hairB{
+    position: absolute;
+    width: 150px;
+    height: 90px;
+    top: 335px;
+    left: 780px;
+    background-image: url("../img/frame3/hairB.png");
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+#hairC{
+    position: absolute;
+    width: 150px;
+    height: 90px;
+    top: 335px;
+    left: 930px;
+    background-image: url("../img/frame3/hairC.png");
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+#hairD{
+    position: absolute;
+    width: 160px;
+    height: 90px;
+    top: 435px;
+    left: 620px;
+    background-image: url("../img/frame3/hairD.png");
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+#hairE{
+    position: absolute;
+    width: 155px;
+    height: 90px;
+    top: 435px;
+    left: 755px;
+    background-image: url("../img/frame3/hairE.png");
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+#hairF{
+    position: absolute;
+    width: 150px;
+    height: 90px;
+    top: 425px;
+    left: 910px;
+    background-image: url("../img/frame3/hairF.png");
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+#hairG{
+    position: absolute;
+    width: 150px;
+    height: 90px;
+    top: 525px;
+    left: 625px;
+    background-image: url("../img/frame3/hairG.png");
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+#hairH{
+    position: absolute;
+    width: 150px;
+    height: 90px;
+    top: 525px;
+    left: 765px;
+    background-image: url("../img/frame3/hairH.png");
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+#footer{
+    position: absolute;
+    width: 355px;
+    height: 40px;
+    top: 1355px;
+    left: 310px;
+    background-image: url("../img/frame3/footer.png");
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+#penis{
+    position: absolute;
+    width: 327px;
+    height: 330px;
+    top: 990px;
+    left: 305px;
+    background-image: url("../img/frame3/penis.png");
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+#vagina{
+    position: absolute;
+    width: 300px;
+    height: 330px;
+    top: 970px;
+    left: 680px;
+    background-image: url("../img/frame3/vagina.png");
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+#wearedifferent{
+    position: absolute;
+    width: 330px;
+    height: 110px;
+    top: 1330px;
+    left: 660px;
+    background-image: url("../img/frame3/wearedifferent.png");
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+#kedou{
+    position: absolute;
+    width: 915px;
+    height: 205px;
+    top: 750px;
+    left: 210px;
+    background-image: url("../img/frame3/kedou.bmp");
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+#languageoflife{
+    position: absolute;
+    width: 663px;
+    height: 185px;
+    top: 780px;
+    left: 345px;
+    background-image: url("../img/frame3/languageoflife.png");
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}

@@ -1,0 +1,452 @@
+#frame4{
+    position: relative;
+    width: 100%;
+    height: 1020px;
+    background-image: url("../img/frame4/bg4.jpg");
+}
+#header2{
+    position: absolute;
+    width: 780px;
+    height: 200px;
+    top:25px;
+    left: 280px;
+    background-image: url("../img/frame4/header.png");
+    background-repeat: no-repeat;
+
+}
+#ribbon{
+    position: absolute;
+    width: 140px;
+    height: 20px;
+    top: 135px;
+    left: 600px;
+    background-image: url("../img/frame4/ribbon.png");
+    background-repeat: no-repeat;
+}
+#txt1{
+    position: absolute;
+    width: 450px;
+    height: 125px;
+    top: 205px;
+    left: 450px;
+    background-image: url("../img/frame4/txt1.png");
+    background-repeat: no-repeat;
+}
+#face{
+
+}
+#nape{
+    position: absolute;
+    width: 85px;
+    height: 164px;
+    top: 816px;
+    left: 830px;
+    background: url('../img/frame4/nape.jpg') no-repeat;
+}
+#ear{
+    position: absolute;
+    z-index: 2;
+    width: 132px;
+    height: 167px;
+    top: 640px;
+    left: 654px;
+    background: url('../img/frame4/ear.png') no-repeat;
+}
+#ear_top{
+    position: absolute;
+    z-index: 3;
+    width: 132px;
+    height: 167px;
+    top: 640px;
+    left: 654px;
+    background: url('../img/frame4/ear_top.png') no-repeat;
+}
+#nosemouth{
+    position: absolute;
+    background-image: url("../img/frame4/nosemouth.jpg");
+    width: 318px;
+    height: 345px;
+    top: 686px;
+    left: 374px;
+    background-position: 0px -63px;
+    background-repeat: no-repeat;
+
+}
+#nosemouth_top{
+    position: absolute;
+    background-image: url("../img/frame4/nosemouth_top.png");
+    width: 88px;
+    height: 130px;
+    top: 644px;
+    left: 374px;
+    z-index: 3;
+    background-repeat: no-repeat;
+}
+#eye{
+    position: absolute;
+    background-image: url("../img/frame4/eye.png");
+    width: 88px;
+    height: 69px;
+    top: 619px;
+    left: 453px;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+}
+#sprite1{
+    position: absolute;
+    width: 106px;
+    height: 81px;
+    top: 745px;
+    left: 799px;
+    background: url("../img/frame4/sprite1.png") no-repeat;
+}
+#sprite2{
+    position: absolute;
+    width: 75px;
+    height: 117px;
+    top: 656px;
+    left: 871px;
+    background: url("../img/frame4/sprite2.png") no-repeat;
+}
+#sprite3{
+    position: absolute;
+    width: 80px;
+    height: 103px;
+    top: 568px;
+    left: 829px;
+    background: url("../img/frame4/sprite3.png") no-repeat;
+}
+#sprite4{
+    position: absolute;
+    width: 64px;
+    height: 110px;
+    top: 548px;
+    left: 884px;
+    background: url("../img/frame4/sprite4.png") no-repeat;
+}
+#sprite5{
+    position: absolute;
+    width: 105px;
+    height: 109px;
+    top: 470px;
+    left: 835px;
+    background:url("../img/frame4/sprite5.png") no-repeat;
+}
+#sprite6{
+    position: absolute;
+    width: 67px;
+    height: 179px;
+    top: 570px;
+    left: 781px;
+    background:url("../img/frame4/sprite6.png") no-repeat;
+}
+#sprite7{
+    position: absolute;
+    width: 126px;
+    height: 73px;
+    top: 601px;
+    left: 664px;
+    background:url("../img/frame4/sprite7.png") no-repeat;
+}
+#sprite8{
+    position: absolute;
+    width: 80px;
+    height: 93px;
+    top: 633px;
+    left: 618px;
+    z-index: 3;
+    background:url("../img/frame4/sprite8.png") no-repeat;
+}
+#sprite9{
+    position: absolute;
+    width: 86px;
+    height: 90px;
+    top: 553px;
+    left: 627px;
+    background:url("../img/frame4/sprite9.png") no-repeat;
+}
+#sprite10{
+    position: absolute;
+    width: 120px;
+    height: 74px;
+    top: 551px;
+    left: 701px;
+    background:url("../img/frame4/sprite10.png") no-repeat;
+}
+#sprite11{
+    position: absolute;
+    width: 116px;
+    height: 94px;
+    top: 486px;
+    left: 733px;
+    background:url("../img/frame4/sprite11.png") no-repeat;
+}
+#sprite12{
+    position: absolute;
+    width: 113px;
+    height: 123px;
+    top: 430px;
+    left: 757px;
+    background:url("../img/frame4/sprite12.png") no-repeat;
+}
+#sprite13{
+    position: absolute;
+    width: 129px;
+    height: 102px;
+    top: 397px;
+    left: 780px;
+    background:url("../img/frame4/sprite13.bmp") no-repeat;
+}
+#sprite14{
+    position: absolute;
+    width: 121px;
+    height: 59px;
+    top: 377px;
+    left: 688px;
+    background:url("../img/frame4/sprite14.png") no-repeat;
+}
+#sprite15{
+    position: absolute;
+    width: 91px;
+    height: 65px;
+    top: 424px;
+    left: 690px;
+    background:url("../img/frame4/sprite15.png") no-repeat;
+}
+#sprite16{
+    position: absolute;
+    width: 55px;
+    height: 57px;
+    top: 427px;
+    left: 643px;
+    background:url("../img/frame4/sprite16.png") no-repeat;
+}
+#sprite17{
+    position: absolute;
+    width: 62px;
+    height: 77px;
+    top: 428px;
+    left: 588px;
+    background:url("../img/frame4/sprite17.png") no-repeat;
+}
+#sprite18{
+    position: absolute;
+    width: 109px;
+    height: 63px;
+    top: 373px;
+    left: 582px;
+    background-image: url("../img/frame4/sprite18.png");
+}
+#sprite19{
+    position: absolute;
+    width: 98px;
+    height: 74px;
+    top: 394px;
+    left: 505px;
+    background-image: url("../img/frame4/sprite19.png");
+}
+#sprite20{
+    position: absolute;
+    width: 66px;
+    height: 73px;
+    top: 541px;
+    left: 585px;
+    background-image: url("../img/frame4/sprite20.png");
+}
+#sprite21{
+    position: absolute;
+    width: 105px;
+    height: 100px;
+    top: 340px;
+    left: 385px;
+    background-image: url("../img/frame4/sprite21.png");
+    background-repeat: no-repeat;
+}
+#sprite22{
+    position: absolute;
+    width: 81px;
+    height: 95px;
+    top: 477px;
+    left: 610px;
+    background-image: url("../img/frame4/sprite22.png");
+}
+#sprite23{
+    position: absolute;
+    width: 69px;
+    height: 62px;
+    top: 496px;
+    left: 554px;
+    background-image: url("../img/frame4/sprite23.png");
+}
+#sprite24{
+    position: absolute;
+    background-image: url("../img/frame4/sprite24.png");
+    width: 34px;
+    height: 53px;
+    top: 575px;
+    left: 444px;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+}
+#sprite25{
+    position: absolute;
+    background-image: url("../img/frame4/sprite25.png");
+    width: 23px;
+    height: 30px;
+    top: 627px;
+    left: 445px;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+}
+#sprite26{
+    position: absolute;
+    width: 32px;
+    height: 49px;
+    top: 583px;
+    left: 460px;
+    background: url("../img/frame4/sprite26.png") no-repeat;
+}
+#sprite27{
+    position: absolute;
+    width: 36px;
+    height: 49px;
+    top: 592px;
+    left: 483px;
+    background: url("../img/frame4/sprite27.png") no-repeat;
+}
+#sprite28{
+    position: absolute;
+    width: 39px;
+    height: 47px;
+    top: 597px;
+    left: 502px;
+    background: url("../img/frame4/sprite28.png") no-repeat;
+}
+#sprite29{
+    position: absolute;
+    width: 49px;
+    height: 49px;
+    top: 604px;
+    left: 512px;
+    background: url("../img/frame4/sprite29.png") no-repeat;
+}
+#sprite30{
+    position: absolute;
+    top: 635px;
+    left: 523px;
+    width: 57px;
+    height: 53px;
+    background-image: url("../img/frame4/sprite30.png");
+    background-position: 0px 0px;
+}
+#sprite31{
+    position: absolute;
+    width: 76px;
+    height: 50px;
+    top: 547px;
+    left: 474px;
+    background-image: url("../img/frame4/sprite31.png");
+}
+#sprite32{
+    position: absolute;
+    width: 104px;
+    height: 40px;
+    top: 538px;
+    left: 450px;
+    background-image: url("../img/frame4/sprite32.png");
+    background-position: 0px 0px;
+
+}
+#sprite33{
+    position: absolute;
+    width: 72px;
+    height: 60px;
+    top: 550px;
+    left: 520px;
+    background: url("../img/frame4/sprite33.png") no-repeat;
+}
+#sprite34{
+    position: absolute;
+    width: 49px;
+    height: 55px;
+    top: 591px;
+    left: 554px;
+    background: url("../img/frame4/sprite34.png") no-repeat;
+}
+/*#sprite35{*/
+
+    /*background: url("../img/frame4/sprite35.png") no-repeat;*/
+/*}*/
+#sprite36{
+    position: absolute;
+    width: 69px;
+    height: 63px;
+    top: 487px;
+    left: 495px;
+    background: url("../img/frame4/sprite36.png") no-repeat;
+}
+#sprite37{
+    position: absolute;
+    width: 59px;
+    height: 61px;
+    top: 480px;
+    left: 455px;
+    background: url("../img/frame4/sprite37.png") no-repeat;
+}
+#spriteA{
+    position: absolute;
+    width: 46px;
+    height: 85px;
+    top: 667px;
+    left: 838px;
+    background: url("../img/frame4/spriteA.png") no-repeat;
+}
+#spriteB{
+    position: absolute;
+    width: 99px;
+    height: 99px;
+    top: 475px;
+    left: 669px;
+    background: url("../img/frame4/spriteB.png") no-repeat;
+}
+#spriteC{
+    position: absolute;
+    width: 73px;
+    height: 60px;
+    top: 430px;
+    left: 476px;
+    background: url("../img/frame4/spriteC.png") no-repeat;
+    background-position: 0px 0px;
+}
+#spriteD{
+    position: absolute;
+    width: 72px;
+    height: 52px;
+    top: 455px;
+    left: 516px;
+    background: url("../img/frame4/spriteD.png") no-repeat;
+}
+#star{
+    position: absolute;
+    width: 47px;
+    height: 51px;
+    top: 612px;
+    left: 591px;
+    background: url("../img/frame4/star.png") no-repeat;
+}
+#handLeft{
+    position: absolute;
+    height:505px;
+    width:516px;
+    top:1030px;
+    left: -74px;
+    z-index: 2;
+}
+#handRight{
+    position: absolute;
+    width: 1473px;
+    height: 522px;
+    top: 671px;
+    left: 1400px;
+    z-index: 3;
+}
