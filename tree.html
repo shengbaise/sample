@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="js/jquery.1.10.2.js"></script>
+<script>
+    $(function(){
+        var i=0;
+                var div = document.createElement("div");
+                div.className='tree';
+                div.style.width= '10px';
+                div.style.height='150px';
+                div.style.backgroundColor='brown';
+                div.style.position='relative';
+                div.style.margin='100px auto';
+                $("body").append(div);
+
+        function tree(b,a,c){
+            if(i<2) {
+                var div = document.createElement("div");
+                div.className='tree1';
+                div.style.width = '5px';
+                div.style.height = '80px';
+                div.style.backgroundColor = 'brown';
+                div.style.position = 'absolute';
+                div.style.top = +(Math.random()*2+b)*5+ 'px';
+                div.style.left = c+'px';
+                div.style.transform = 'rotate(' + (a + Math.random() * 2) + 'deg)';
+                div.style.transformOrigin = '0px '+(Math.random()*2+10)*5+'px';
+                $(".tree").append(div);
+            }
+            i++;
+            window.requestAnimationFrame(tree(Math.random()+3,-45,-16));
+        }
+        window.requestAnimationFrame(tree(Math.random()+5,35,20));
+    })
+</script>
+</body>
+</html>

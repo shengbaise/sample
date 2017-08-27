@@ -3,28 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        body{
+            height: 800px;;
+        }
+        /*html{font-size:100px}*/
+        #test{
+            display: flex;
+            width: 50%;
+            height: 20% ;
+            margin: 0 auto;
+        }
+        #test div{
+            background-color: #9CC873;
+            flex: 1;
+        }
+        #test1{
+            background-color: #b3d4fc;
+        }
+    </style>
 </head>
 <body>
-<p style="font-size: 0.5rem">second</p>
-<div style="background-color: #9CC873;width: 1rem;height: 1rem;"></div>
-<p >second</p>
-<script src="js/jquery.1.10.2.js"></script>
-<script>
-    //设置根元素字体
-    var win = window,
-            doc = document;
-    function setFontSize() {
-        var winWidth = $(window).width();
-
-        //750这个数字是根据你的设计图的实际大小来的，所以值具体根据设计图的大小
-        var size = (winWidth / 750) * 100;
-        doc.documentElement.style.fontSize = (size < 100 ? size : 100) + 'px';
-    };
-    //这里我们给个定时器来实现页面加载完毕再进行字体设置
-    setTimeout(function() {
-        //初始化
-        setFontSize();
-    }, 100);
-</script>
+<div id="test">
+    <div id="test1">1</div>
+    <div>2</div>
+    <div>3</div>
+</div>
+<div>test</div>
 </body>
 </html>

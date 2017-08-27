@@ -12,7 +12,7 @@ body{
     border: 10px double;
     background-color: lightgrey;
     overflow: hidden;
-    /*filter: blur(1px);*/
+    filter: blur(1px);
 }
 .bamboo{
     position: absolute;
