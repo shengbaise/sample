@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<link rel="stylesheet" type="text/css" href="css/owl.css">
+<body>
+<ul id="ul">
+	<li>1</li>
+	<li>2</li>
+	<li>3</li>
+	<li id="test4">4</li>
+</ul>
+<script>
+	var father = document.getElementById('ul');
+	father.addEventListener("click", function(ev){
+		var target = ev.target || ev.srcElement;
+		if(target.nodeName.toLowerCase() == 'li') {
+			target.innerHTML = "Hello World";
+    	target.style.color = 'red';
+    	console.log(target);
+		}   
+	});
+	// window.onload = function () {
+	// 	var oUl = document.getElementById("ul");
+	// 	var aLi = oUl.getElementsByTagName("li");	
+	// 	oUl.onclick = function(ev){
+	// 		var ev = ev || window.event;
+	// 		var target = ev.target || ev.srcElement;
+	// 		alert(target.innerHTML);
+	// 		if(target.nodeName.toLowerCase() == "li"){
+	// 			target.style.background = "red";
+	// 		}
+	// 	}	
+	// }
+	
+</script>
+</body>
+</html>
